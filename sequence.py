@@ -9,16 +9,21 @@ d = a+b+c
 
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
 
-for i in range(0,n):
-    print(a)
-    print(b)
-    print(c)
-    print(d)
-    a = d+b+c
-    b = c+d+a
-    c = d+a+b
-    d = a+b+c
+
+
+
+
+
+
+
+
+#for i in range(0, n)
+   # print(a)
+    #print(b)
+    #print(c)
+    #print(d)
+    #a = d+b+c
+    #b = c+d+a
+    #c = d+a+b
+    #d = a+b+c
    
-
-
-
