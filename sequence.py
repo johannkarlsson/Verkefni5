@@ -1,23 +1,37 @@
 # 1,2,3,6,11,20,37,_,_,_,....
-# gera forrit sem generate-ar fyrstu n numbers
-#búa til sequenceið sjalft
-#búa til forritið sem printar linurnar sem matcha input
+# finna ut leið til að gera reikna sequencið með breytum
+# finna leið til að 
 a = 1
-b = 2
-c = 3
-d = a+b+c
+#b = a+a
+#c = a+b
+#d = a+b+c
+prev_number = 0
+prev_number2 = 0
+prev_number3 = 0
+current_number = a
 
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
 
-for i in range(0,n):
-    print(a)
-    print(b)
-    print(c)
-    print(d)
-    a = d+b+c
-    b = c+d+a
-    c = d+a+b
-    d = a+b+c
+
+for i in range (0,n):
+   if current_number == 1:
+      print(current_number)
+      prev_number = current_number
+      current_number = prev_number + prev_number
+   elif current_number == 2:
+      print(current_number)
+      prev_number2 = prev_number
+      prev_number = current_number
+      current_number = prev_number + prev_number2
+   else:
+      print(current_number)
+      prev_number3 = prev_number2
+      prev_number2 = prev_number
+      prev_number = current_number
+      current_number = prev_number + prev_number2 + prev_number3
+
+
+
    
 
 
