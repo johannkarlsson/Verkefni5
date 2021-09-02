@@ -1,6 +1,7 @@
 # 1,2,3,6,11,20,37,_,_,_,....
 # finna ut leið til að gera reikna sequencið með breytum
 # finna leið til að leggja saman og á sama tíma geyma eldri númer fyrir næstu summu.
+#laga username
 
 #a = 1
 #b = a+a
